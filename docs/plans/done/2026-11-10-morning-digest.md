@@ -1,8 +1,9 @@
 ---
 plan: morning-digest
-status: ready
+status: done
 owner: rook
 opened: 2026-10-29
+closed: 2026-11-10
 ---
 
 # Morning digest
@@ -77,3 +78,19 @@ page again with `LANE_MARKER` unset (the banner reads "no marker set") and uploa
 link. Move this plan to `docs/plans/done/` with its issue list.
 
 Done when: the preview link no longer shows the lane marker.
+
+## Issues
+
+| # | Issue | Closed |
+|---|-------|--------|
+| 1 | Digest contract: define types and reader signature | 2026-11-10 |
+| 2 | Run log reader: aggregate jobs and count malformed lines | 2026-11-10 |
+| 3 | HTML digest route: GET /digest/:night | 2026-11-10 |
+| 4 | Digest JSON endpoint: GET /api/digest/:night | 2026-11-10 |
+| 5 | Status board: link each night to its digest | 2026-11-10 |
+| 6 | Digest route tests: cover edge cases | 2026-11-10 |
+| 7 | Publish the digest preview for review | 2026-11-10 |
+| 8 | Remove the preview marker and archive the plan | 2026-11-10 |
+
+The public preview remains at https://btbrq.github.io/rig-morning-digest/ with its banner set to
+`no marker set`.
